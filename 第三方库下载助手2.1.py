@@ -6,7 +6,8 @@ with open('path.txt','r') as f:
     path = r'%s' % f.read()
 
 def install(name):
-    a = f'pip install {name} -i https://pypi.tuna.tsinghua.edu.cn/simple'
+    a = f'pip install {name} -i https://pypi.tuna.tsinghua.edu.cn/simple'  # 中国的
+    # a = f'pip install {name}'  PYPI官网的
     os.system(f'cd {path}')
     b = os.system(a)
     return b
