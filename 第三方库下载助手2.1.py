@@ -1,3 +1,4 @@
+'''请先在path.txt里设置你的Python的Scripts路径'''
 import os,webbrowser,re
 from termcolor import colored
 
