@@ -1,5 +1,5 @@
 '''请先在path.txt里设置你的Python的Scripts路径'''
-import os,webbrowser,re
+import os,webbrowser
 from termcolor import colored
 
 with open('path.txt','r') as f:
