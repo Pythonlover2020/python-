@@ -1,1 +1,1 @@
-C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\Scripts
+请在这里写入你的Python的Scripts路径
